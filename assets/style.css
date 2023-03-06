@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(173, 216, 230);
+    text-align: center;
+}
+
+nav{
+    display: inline-flex;
+    background-color: rgb(218, 165, 32);
+    justify-content: center;
+    margin: 1rem;
+    width: 75%;
+}
+
+#logo{
+    border: 3px dotted black;
+    padding: 1rem;
+}
+
+#link{
+    flex-grow: 2;
+    text-align: center;
+    border: 3px dotted black;
+    padding: 1rem;
+}
+
+#login{
+    border: 3px dotted black;
+    padding: 1rem;
+}
+
+/* background-color: rgb(0 0 139); */
