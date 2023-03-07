@@ -32,7 +32,7 @@ footer{
     justify-content: center;
     flex-direction: column;
     background-color: #23272A;
-    padding: 2em 14em;
+    /*padding: 2em 14em;*/
 }
 
 button{
@@ -68,20 +68,19 @@ button{
 #verde{
     background-color: rgb(34, 139, 34);
     padding: 30% 50%;
-    
 }
 
 #footertop{
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    
+    margin: 1em 14em;
 }
 
 #salmon{
     flex-grow: 1.5;
     background-color:  #F08080;
-    
+    padding: 25em 0;
 }
 
 #footerbot{
@@ -90,6 +89,13 @@ button{
     justify-content:  space-between;
     background-color: #7FFFD4;
     padding: 1em 0;
+}
+
+#barra {
+    width: 100%;
+    padding: 1em 14em;
+    border-top: 3px solid grey;
+
 }
 
 .container{
@@ -118,6 +124,6 @@ button{
     padding: 25em 0;
 }
 
-nav div, #viola, .azzurro, .rosa, #verde, #salmone, #footertop, #footerbot button{
+nav div, #viola, .azzurro, .rosa, #verde, #salmon, #footertop, #footerbot button{
     border: 3px dotted black;
 }
