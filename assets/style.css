@@ -17,6 +17,12 @@ nav{
     width: 75%;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #logo{
     border: 3px dotted black;
     padding: 1rem;
@@ -35,6 +41,8 @@ nav{
 }
 
 #headerbot{
+    display: flex;
+    justify-content: center;
     background-color: rgb(0 0 139);
     padding: 15%;
 }
@@ -45,3 +53,29 @@ nav{
     height: 15%;
 }
 
+#verde{
+    background-color: rgb(34, 139, 34);
+}
+
+.container{
+    display: flex;
+    background-color: red;
+    text-align: center;
+    margin: 2em 15% 2em 15%;
+}
+
+.container:nth-of-type(odd){
+    background-color: rgb(211, 211, 211);
+}
+
+.azzurro{
+    background-color: rgb(30, 144, 255);
+    flex-grow: 4;
+    padding: 10%;
+}
+
+.rosa{
+    background-color: rgb(255, 192, 203);
+    flex-grow: 2;
+    padding: 10%;
+}
