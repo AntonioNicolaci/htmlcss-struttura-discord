@@ -118,6 +118,6 @@ button{
     padding: 25em 0;
 }
 
-span, #viola, .azzurro, .rosa, #verde, #salmone, #footertop, #footerbot button{
+nav div, #viola, .azzurro, .rosa, #verde, #salmone, #footertop, #footerbot button{
     border: 3px dotted black;
 }
