@@ -27,20 +27,29 @@ main .container:nth-of-type(even){
     background-color: rgb(211, 211, 211);
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #23272A;
+    padding: 2em 14em;
+}
+
+button{
+
+}
+
 #logo{
-    border: 3px dotted black;
     padding: 1rem;
 }
 
 #link{
     flex-grow: 2;
     text-align: center;
-    border: 3px dotted black;
     padding: 1rem;
 }
 
 #login{
-    border: 3px dotted black;
     padding: 1rem;
 }
 
@@ -48,18 +57,39 @@ main .container:nth-of-type(even){
     display: flex;
     justify-content: center;
     background-color: rgb(0 0 139);
-    padding: 15%;
+    padding: 5%;
 }
 
-#violet{
+#viola{
     background-color: rgb(238, 130, 238);
-    width: 55%;
+    padding: 15% 30%;
 }
 
 #verde{
     background-color: rgb(34, 139, 34);
-    width: calc();
+    padding: 30% 50%;
     
+}
+
+#footertop{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    
+}
+
+#salmon{
+    flex-grow: 1.5;
+    background-color:  #F08080;
+    
+}
+
+#footerbot{
+    display: flex;
+    justify-content: center;
+    justify-content:  space-between;
+    background-color: #7FFFD4;
+    padding: 1em 0;
 }
 
 .container{
@@ -79,4 +109,15 @@ main .container:nth-of-type(even){
     background-color: rgb(255, 192, 203);
     flex-grow: 2;
     padding: 10%;
+}
+
+.acqua{
+    flex-grow: 1;
+    background-color: #20B2AA;
+    border: 3px dotted white;
+    padding: 25em 0;
+}
+
+span, #viola, .azzurro, .rosa, #verde, #salmone, #footertop, #footerbot button{
+    border: 3px dotted black;
 }
